@@ -1,0 +1,71 @@
+/* IMPORT FONT */
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,400&display=swap");
+/* RESET STYLE*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* COLOR PALETTE */
+:root {
+  --var-color-black: #323A45;
+  --var-color-cian: #14B9D6;
+  --var-color-green: #1FBBA6;
+  --var-color-white: #fff;
+  --var-color-gray: #C4C4C4;
+  --var-color-bg-body: #969191;
+}
+/* GENERAL STYLE */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--var-color-bg-body);
+}
+ul{
+  list-style: none;
+}
+li{
+  margin: .3rem 0 .3rem 0;
+  padding: 1rem 0 1rem 5rem;
+  color:var(--var-color-black);
+  border-bottom: solid 1px var(--var-color-gray);
+  cursor: pointer;
+}
+li i{
+  margin-right: .3rem;
+}
+.header-section{
+  background-color: var(--var-color-black);
+  color: var(--var-color-white);
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 1rem 0;
+  font-weight: bold;
+}
+.sub-title{
+  background-color:var(--var-color-gray) ;
+  color: var(--var-color-white);
+  padding: 1rem;
+  font-size: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.sub-title h3{
+  margin-left: 0.3rem;
+}
+/* CONTAINER */
+.container {
+  min-width: 550px;
+  width: 50%;
+  margin: 0 auto;
+  background-color: var(--var-color-white);
+  border-radius: 10px;
+}
+/* HEADER */
+header {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+header h1 {
+  color: var(--var-color-fontList);
+}

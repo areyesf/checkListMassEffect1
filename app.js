@@ -39,7 +39,7 @@ function loadMissions(data) {
   const typeInsertAdjacent = "beforeend";
 
   mainMissions.forEach((element) => {
-    const liHtml = `<li>${element}</li>`;
+    const liHtml = `<li><i class="fas fa-star"></i>${element}</li>`;
     listElement.insertAdjacentHTML(typeInsertAdjacent, liHtml);
   });
 }
