@@ -1,12 +1,76 @@
 {
     "principales": [
-        "Prologo",
-        "La Ciudadela",
-        "Buscar a Liara T'Soni",
-        "Feros",
-        "Noveria",
-        "Virmire",
-        "Ilos",
-        "La Batalla Final"
+        {
+            "titulo": "Prólogo",
+            "status": false,
+            "description": ""
+        },
+        {
+            "titulo": "La Ciudadela",
+            "status": false,
+            "description": ""
+        },
+        {
+            "titulo": "Buscar a Liara T'Soni",
+            "status": false,
+            "description": ""
+        },
+        {
+            "titulo": "Feros",
+            "status": false,
+            "description": ""
+        },
+        {
+            "titulo": "Noveria",
+            "status": false,
+            "description": ""
+        },
+        {
+            "titulo": "Virmire",
+            "status": false,
+            "description": ""
+        },
+        {
+            "titulo": "Ilos",
+            "status": false,
+            "description": ""
+        },
+        {
+            "titulo": "La Batalla Final",
+            "status": false,
+            "description": ""
+        }
+    ],
+    "secundarias": [
+        {
+            "titulo": "Ferros",
+            "misiones": [
+                {
+                    "titulo": "Carne de varren",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "El suministro de agua",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Geth en los túneles",
+                    "status": false,
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "titulo": "Garrus",
+            "misiones": [
+                {
+                    "titulo": "Encuentra al doctor Saleon",
+                    "status": false,
+                    "description": ""
+                }
+            ]
+        }
     ]
 }
