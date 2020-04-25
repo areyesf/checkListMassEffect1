@@ -5,11 +5,13 @@ const secondaryListElement = document.getElementById("secondary-list");
 //EventsListener***********************************
 document.addEventListener("DOMContentLoaded", validateLocalData);
 mainListElement.addEventListener("click", checkUncheck);
-secondaryListElement.addEventListener("click",checkUncheck);
+secondaryListElement.addEventListener("click", checkUncheck);
+
 //Variables***********************************
 let dataInLocalStorage = localStorage.getItem("MISSIONES-MASS-EFFECT");
 let missionsList =
   dataInLocalStorage == false ? [] : JSON.parse(dataInLocalStorage);
+
 //funciones***********************************
 
 // initial load
@@ -49,7 +51,7 @@ function displayMissions() {
   mainMissions.forEach((element) => {
     const missionStatus = missionsList.principales[idProperty].status
       ? "completed"
-      : "";
+      : "uncompleted";
 
     const iconStatusMain = missionsList.principales[idProperty].status
       ? '<i class="fas fa-check"></i>'
@@ -64,14 +66,13 @@ function displayMissions() {
 
   //create elements to secondary missions
   secondaryMission.forEach((element, index) => {
-    
     const newLi = document.createElement("li");
     const newH4 = document.createElement("h4");
     const newUl = document.createElement("ul");
 
     newLi.appendChild(newH4);
     newLi.appendChild(newUl);
-    newLi.setAttribute("id",index)
+    newLi.setAttribute("id", index);
 
     newH4.innerText = element.titulo;
 
@@ -79,14 +80,16 @@ function displayMissions() {
 
     const missions = element.misiones;
 
-    missions.forEach((element, index) => {   
+    missions.forEach((element, index) => {
       const newLi = document.createElement("li");
-      
-      newUl.appendChild(newLi);
-      newLi.setAttribute("id",index);
 
-      if(missionStatus = element.status){
-        newLi.classList.add("completed");
+      newUl.appendChild(newLi);
+      newLi.setAttribute("id", index);
+
+      if ((missionStatus = element.status)) {
+        newLi.classList.toggle("completed");
+      }else{
+        newLi.classList.toggle("uncompleted");
       }
 
       const iconStatusSecondary = element.status
@@ -94,7 +97,6 @@ function displayMissions() {
         : '<i class="fas fa-circle"></i>';
 
       newLi.innerHTML = `${iconStatusSecondary}${element.titulo}`;
-      
     });
   });
 }
@@ -114,23 +116,29 @@ function resetLocal() {
 //completed
 function checkUncheck(e) {
   const idMission = e.target.id;
-  const idSecondary = e.target.parentElement.parentElement.id
+  const idSecondary = e.target.parentElement.parentElement.id;
 
-  const statusMainMission = missionsList.principales[idMission].status;
-  const statusSecondaryMission = missionsList.secundarias[idSecondary].misiones[idMission].status;
+  if (e.target.parentElement.id == "main-list") {
+    const statusMainMission = missionsList.principales[idMission].status;
 
-  if (statusMainMission) {
-    missionsList.principales[idMission].status = false;
-  } else {
-    missionsList.principales[idMission].status = true;
+    if (statusMainMission) {
+      missionsList.principales[idMission].status = false;
+    } else {
+      missionsList.principales[idMission].status = true;
+    }
+  } else if (
+    e.target.parentElement.parentElement.parentElement.id == "secondary-list"
+  ) {
+    const statusSecondaryMission =
+      missionsList.secundarias[idSecondary].misiones[idMission].status;
+
+    if (statusSecondaryMission) {
+      missionsList.secundarias[idSecondary].misiones[idMission].status = false;
+    } else {
+      missionsList.secundarias[idSecondary].misiones[idMission].status = true;
+    }
   }
 
-  if(statusSecondaryMission){
-    missionsList.secundarias[idSecondary].misiones[idMission].status = false;
-  }else{
-    missionsList.secundarias[idSecondary].misiones[idMission].status = true;
-  }
-
-  updateLocalStorage(missionsList);
+  updateLocalStorage();
   displayMissions();
 }
