@@ -1,28 +1,36 @@
 //Selectors***********************************
 const mainListElement = document.getElementById("main-list");
 const secondaryListElement = document.getElementById("secondary-list");
+const resetElement = document.getElementById("reset");
 
 //EventsListener***********************************
 document.addEventListener("DOMContentLoaded", validateLocalData);
 mainListElement.addEventListener("click", checkUncheck);
 secondaryListElement.addEventListener("click", checkUncheck);
+resetElement.addEventListener("click", resetLocal);
 
 //Variables***********************************
 let dataInLocalStorage = localStorage.getItem("MISSIONES-MASS-EFFECT");
-let missionsList =
-  dataInLocalStorage == false ? [] : JSON.parse(dataInLocalStorage);
+let missionsList = dataInLocalStorage !== null ? JSON.parse(dataInLocalStorage) : [];
+// dataInLocalStorage ? JSON.parse(dataInLocalStorage):{};
 
 //funciones***********************************
 
 // initial load
 function validateLocalData() {
-  if (missionsList) {
-    displayMissions();
+
+  if (dataInLocalStorage !== null) {
+    console.log(`dentro del if:`);
+    missionsList = JSON.parse(dataInLocalStorage);
+    
   } else {
+    console.log('dentro del else');
     getJson();
-    location.reload;
-    displayMissions();
+    
   }
+
+  displayMissions();
+  
 }
 
 //get the local json file
@@ -30,8 +38,10 @@ function getJson() {
   fetch("./misiones.json")
     .then((response) => response.json())
     .then((data) => {
+      console.log(data)
       missionsList = data;
       updateLocalStorage();
+      location.reload();
     })
     .catch((error) => console.log(error));
 }
@@ -46,7 +56,7 @@ function displayMissions() {
 
   const typeInsertAdjacent = "beforeend";
   let idProperty = 0;
-
+  
   //create elements to main mission
   mainMissions.forEach((element) => {
     const missionStatus = missionsList.principales[idProperty].status
@@ -88,7 +98,7 @@ function displayMissions() {
 
       if ((missionStatus = element.status)) {
         newLi.classList.toggle("completed");
-      }else{
+      } else {
         newLi.classList.toggle("uncompleted");
       }
 

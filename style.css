@@ -1,9 +1,10 @@
 /* IMPORT FONT */
-/* @import url("https://fonts.googleapis.com/css?family=Roboto:100,400&display=swap"); */
-@font-face{
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,400&display=swap");
+/* @font-face{
   font-family: "Mass Effect";
   src: url(./font/me123.ttf);
-}
+} */
+
 /* RESET STYLE*/
 * {
   margin: 0;
@@ -21,8 +22,8 @@
 }
 /* GENERAL STYLE */
 body {
-  /* font-family: "Roboto", sans-serif; */
-  font-family: "Mass Effect", sans-serif;
+  font-family: "Roboto", sans-serif;
+  /* font-family: "Mass Effect", sans-serif; */
   background-color: var(--var-color-bg-body);
 }
 ul {
@@ -47,6 +48,15 @@ section {
   font-size: 1.7rem;
   padding: 1rem 0;
   font-weight: bold;
+}
+.header-section i{
+  margin-left: 1rem;
+  cursor: pointer;
+  transition: transform ease-in .5s;
+}
+.header-section i:hover{
+  margin-left: 1rem;
+  transform: rotate(360deg);
 }
 .sub-title {
   background-color: var(--var-color-gray);
