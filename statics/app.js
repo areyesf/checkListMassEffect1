@@ -127,19 +127,22 @@ function resetLocal() {
     cancelButtonText: 'No'
   }).then((result) => {
     if (result.value) {
-      if (missionsList) {
-        localStorage.clear();
-        
-      }
       Swal.fire(
         '¡Elimando!',
         'Tu progreso ha vuelvo a 0%.',
         'success'
-      )
-      
+      ).then(()=>{
+        localStorage.clear();
+        validateLocalData();
+        location.reload();
+      });
     }
   })
-  validateLocalData();
+  // if (missionsList) {
+   
+  //   validateLocalData();
+  // }
+  
 }
 //completed
 function checkUncheck(e) {
