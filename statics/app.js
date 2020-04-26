@@ -116,10 +116,30 @@ function updateLocalStorage() {
 
 // reset local storage
 function resetLocal() {
-  if (missionsList) {
-    localStorage.clear();
-    location.reload();
-  }
+  Swal.fire({
+    title: 'Reinicio de Progreso',
+    text: "¿Estás seguro de querer reiniciar tu progreso",
+    icon: 'warning',
+    showCancelButton: true,
+    confirmButtonColor: '#3085d6',
+    cancelButtonColor: '#d33',
+    confirmButtonText: 'Si, estoy seguro',
+    cancelButtonText: 'No'
+  }).then((result) => {
+    if (result.value) {
+      if (missionsList) {
+        localStorage.clear();
+        
+      }
+      Swal.fire(
+        '¡Elimando!',
+        'Tu progreso ha vuelvo a 0%.',
+        'success'
+      )
+      
+    }
+  })
+  validateLocalData();
 }
 //completed
 function checkUncheck(e) {
@@ -174,3 +194,5 @@ function changeChart() {
   chart.update(per);
   chartElement.firstChild.textContent = `${per}%`;
 }
+
+//alert
