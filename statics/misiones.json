@@ -68,16 +68,6 @@
             ]
         },
         {
-            "titulo": "Garrus",
-            "misiones": [
-                {
-                    "titulo": "Encuentra al doctor Saleon",
-                    "status": false,
-                    "description": ""
-                }
-            ]
-        },
-        {
             "titulo": "Index",
             "misiones": [
                 {

@@ -49,12 +49,12 @@ section {
   padding: 1rem 0;
   font-weight: bold;
 }
-.header-section i{
+.header-section i {
   margin-left: 1rem;
   cursor: pointer;
-  transition: transform ease-in .5s;
+  transition: transform ease-in 0.5s;
 }
-.header-section i:hover{
+.header-section i:hover {
   margin-left: 1rem;
   transform: rotate(360deg);
 }
@@ -87,9 +87,9 @@ header {
 }
 header h1 {
   font-size: 2rem;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
-header p{
+header p {
   font-size: 1rem;
   font-weight: lighter;
 }
@@ -112,8 +112,35 @@ header p{
   color: var(--var-color-white);
   text-decoration: line-through;
 }
-.uncompleted{
-  background-color:var(--var-color-white); 
+.uncompleted {
+  background-color: var(--var-color-white);
 }
 
 /* CHART */
+.chart-container{
+  padding: 0;
+  margin-bottom: 1rem;
+}
+.chart-container h2{
+  margin-bottom: 1rem;
+}
+.chart {
+  position: relative;
+  width: 170px;
+  height: 170px;
+  line-height: 170px;
+  margin: 0 auto 1.5rem auto;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: var(--var-color-black);
+  color: var(--var-color-white);
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+canvas {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+

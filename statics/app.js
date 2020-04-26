@@ -14,17 +14,14 @@ resetElement.addEventListener("click", resetLocal);
 let dataInLocalStorage = localStorage.getItem("MISSIONES-MASS-EFFECT");
 let missionsList =
   dataInLocalStorage !== null ? JSON.parse(dataInLocalStorage) : [];
-// dataInLocalStorage ? JSON.parse(dataInLocalStorage):{};
 
 //funciones***********************************
 
 // initial load
 function validateLocalData() {
   if (dataInLocalStorage !== null) {
-    console.log(`dentro del if:`);
     missionsList = JSON.parse(dataInLocalStorage);
   } else {
-    console.log("dentro del else");
     getJson();
   }
 
@@ -95,7 +92,7 @@ function displayMissions() {
       newUl.appendChild(newLi);
       newLi.setAttribute("id", index);
 
-      if ((element.status)) {
+      if (element.status) {
         newLi.classList.toggle("completed");
       } else {
         newLi.classList.toggle("uncompleted");
@@ -108,6 +105,8 @@ function displayMissions() {
       newLi.innerHTML = `${iconStatusSecondary}${element.titulo}`;
     });
   });
+
+  changeChart();
 }
 
 // updata the data in local storage
@@ -149,21 +148,29 @@ function checkUncheck(e) {
   }
 
   updateLocalStorage();
+  
   displayMissions();
+  
 }
-// calculate complete percent
-
-//create chart
+//create chart by CHARTJS library 
 const chart = new EasyPieChart(chartElement, {
-  // your options goes here
+  barColor: "#14b9d6",
+  lineWidth:20,
+  size: 170,
+  lineCap: "round",
+  trackColor: "#fff",
+  scaleLength: 0,
+  animate:{
+    duration: 500,
+    enabled: true
+  }
 });
 
 //change data chart
 function changeChart() {
-  const totalMissions = document.querySelectorAll("li").length;
+  const totalMissions = document.querySelectorAll(".mission").length;
   const numCompleted = document.querySelectorAll(".completed").length;
-  console.log(totalMissions);
-  console.log(numCompleted);
-
-  // chart.update(50);
+  const per = Math.floor((numCompleted * 100) / totalMissions);
+  chart.update(per);
+  chartElement.firstChild.textContent = `${per}%`;
 }
