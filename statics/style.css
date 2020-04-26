@@ -79,6 +79,7 @@ section {
   background-color: var(--var-color-white);
   border-radius: 10px;
 }
+
 /* HEADER */
 header {
   text-align: center;
@@ -98,6 +99,7 @@ header p {
   padding: 1rem 0 1rem 5rem;
 }
 /* SECONDARY MISSIONS */
+
 #secondary-list li h4 {
   padding: 1rem 0 1rem 5rem;
   color: var(--var-color-white);
@@ -106,6 +108,7 @@ header p {
 #secondary-list ul li {
   padding: 1rem 0 1rem 5rem;
 }
+
 /* OTHER TO MISSIONS */
 .completed {
   background-color: var(--var-color-green);
@@ -117,11 +120,11 @@ header p {
 }
 
 /* CHART */
-.chart-container{
+.chart-container {
   padding: 0;
   margin-bottom: 1rem;
 }
-.chart-container h2{
+.chart-container h2 {
   margin-bottom: 1rem;
 }
 .chart {
@@ -144,3 +147,16 @@ canvas {
   left: 0px;
 }
 
+/* queries */
+@media (max-width: 550px) {
+  .container {
+    min-width: 100%;
+    margin: 0 auto;
+    border-radius: 0;
+  }
+  #secondary-list ul li,
+  #main-missions li,
+  #secondary-list li h4 {
+    padding: 1rem 0 1rem 3rem;
+  }
+}
