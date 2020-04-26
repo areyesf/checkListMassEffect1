@@ -1,0 +1,396 @@
+{
+    "principales": [
+        {
+            "titulo": "Prólogo",
+            "status": false,
+            "description": ""
+        },
+        {
+            "titulo": "La Ciudadela",
+            "status": false,
+            "description": ""
+        },
+        {
+            "titulo": "Buscar a Liara T'Soni",
+            "status": false,
+            "description": ""
+        },
+        {
+            "titulo": "Feros",
+            "status": false,
+            "description": ""
+        },
+        {
+            "titulo": "Noveria",
+            "status": false,
+            "description": ""
+        },
+        {
+            "titulo": "Virmire",
+            "status": false,
+            "description": ""
+        },
+        {
+            "titulo": "Ilos",
+            "status": false,
+            "description": ""
+        },
+        {
+            "titulo": "La Batalla Final",
+            "status": false,
+            "description": ""
+        }
+    ],
+    "secundarias": [
+        {
+            "titulo": "Feros",
+            "misiones": [
+                {
+                    "titulo": "Carne de varren",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "El suministro de agua",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Geth en los túneles",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Las baterías",
+                    "status": false,
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "titulo": "Garrus",
+            "misiones": [
+                {
+                    "titulo": "Encuentra al doctor Saleon",
+                    "status": false,
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "titulo": "Index",
+            "misiones": [
+                {
+                    "titulo": "IV renegada",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Base asediada",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Carguero a la deriva",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Carguero desaparecido",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Cerberus",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Científicos muertos",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Colonia de los muertos",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Corsarios",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Depósito Sigm",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Diplomacia asari",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Discos de datos proteanos",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "El mayor Kyle",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Escritos Asari",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Incursiones geth",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Insignias Turianas",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Instalación de ExoGeni",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Investigadores desaparecidos",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "La negociación",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Localizar las señales de batalla",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Los perros del Hades",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Marines desaparecidos",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Minerales valiosos",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Módulo perdido",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Opa hostil",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Puesto de escucha Alpha",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Puesto de escucha Theta",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Rehenes",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Señal de emergencia",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Sonda de espionaje",
+                    "status": false,
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "titulo": "La ciudadela",
+            "misiones": [
+                {
+                    "titulo": "Asuntos familiares",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Asuntos viejos, infelices y lejanos",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Dispositivo de espionaje",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "El Cuarto Poder",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "El Fan",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "El profeta del Presidium",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Examinar a los cuidadores",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "La consorte asari",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "La doctora Michel",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "La hermana de Rita",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "La petición de la reportera",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "La petición del negociador",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "La reclamación de Xeltan",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Los temores de Jahleed",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Nuestro peor enemigo",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Recuerdo quién soy",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Schells el Jugador",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Seguir la señal",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Vuelta a casa",
+                    "status": false,
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "titulo": "Noveria",
+            "misiones": [
+                {
+                    "titulo": "Contrabando",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Espionaje",
+                    "status": false,
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "titulo": "Virmire",
+            "misiones": [
+                {
+                    "titulo": "Ayudar al equipo de Kirrahe",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Wrex y la genofagia",
+                    "status": false,
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "titulo": "Compañeros",
+            "misiones": [
+                {
+                    "titulo": "Encuentra al doctor Saleon - [Garrus]",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Tali y los geth - [Tali]",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "La Armadura de la Familia - [Wrex]",
+                    "status": false,
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "titulo": "DLC",
+            "misiones": [
+                {
+                    "titulo": "El cielo se está cayendo",
+                    "status": false,
+                    "description": ""
+                },
+                {
+                    "titulo": "Estación pináculo",
+                    "status": false,
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}
