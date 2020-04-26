@@ -1,0 +1,146 @@
+/* IMPORT FONT */
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,400&display=swap");
+/* @font-face{
+  font-family: "Mass Effect";
+  src: url(./font/me123.ttf);
+} */
+
+/* RESET STYLE*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* COLOR PALETTE */
+:root {
+  --var-color-black: #323a45;
+  --var-color-cian: #14b9d6;
+  --var-color-green: #1fbba6;
+  --var-color-white: #fff;
+  --var-color-gray: #c4c4c4;
+  --var-color-bg-body: #969191;
+}
+/* GENERAL STYLE */
+body {
+  font-family: "Roboto", sans-serif;
+  /* font-family: "Mass Effect", sans-serif; */
+  background-color: var(--var-color-bg-body);
+}
+ul {
+  list-style: none;
+}
+li {
+  color: var(--var-color-black);
+  border-bottom: solid 1px var(--var-color-gray);
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+li i {
+  margin-right: 0.3rem;
+}
+section {
+  padding-bottom: 3rem;
+}
+.header-section {
+  background-color: var(--var-color-black);
+  color: var(--var-color-white);
+  text-align: center;
+  font-size: 1.7rem;
+  padding: 1rem 0;
+  font-weight: bold;
+}
+.header-section i {
+  margin-left: 1rem;
+  cursor: pointer;
+  transition: transform ease-in 0.5s;
+}
+.header-section i:hover {
+  margin-left: 1rem;
+  transform: rotate(360deg);
+}
+.sub-title {
+  background-color: var(--var-color-gray);
+  color: var(--var-color-white);
+  padding: 1rem;
+  font-size: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-shadow: 0 1px 0.4px var(--var-color-black);
+}
+.sub-title h3 {
+  margin-left: 0.3rem;
+}
+/* CONTAINER */
+.container {
+  min-width: 550px;
+  width: 50%;
+  margin: 1rem auto;
+  background-color: var(--var-color-white);
+  border-radius: 10px;
+}
+/* HEADER */
+header {
+  text-align: center;
+  padding: 1rem 0;
+  color: var(--var-color-black);
+}
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+header p {
+  font-size: 1rem;
+  font-weight: lighter;
+}
+/* MAIN MISSIONS */
+#main-missions li {
+  padding: 1rem 0 1rem 5rem;
+}
+/* SECONDARY MISSIONS */
+#secondary-list li h4 {
+  padding: 1rem 0 1rem 5rem;
+  color: var(--var-color-white);
+  background-color: var(--var-color-cian);
+}
+#secondary-list ul li {
+  padding: 1rem 0 1rem 5rem;
+}
+/* OTHER TO MISSIONS */
+.completed {
+  background-color: var(--var-color-green);
+  color: var(--var-color-white);
+  text-decoration: line-through;
+}
+.uncompleted {
+  background-color: var(--var-color-white);
+}
+
+/* CHART */
+.chart-container{
+  padding: 0;
+  margin-bottom: 1rem;
+}
+.chart-container h2{
+  margin-bottom: 1rem;
+}
+.chart {
+  position: relative;
+  width: 170px;
+  height: 170px;
+  line-height: 170px;
+  margin: 0 auto 1.5rem auto;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: var(--var-color-black);
+  color: var(--var-color-white);
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+canvas {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
