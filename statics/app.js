@@ -66,7 +66,9 @@ function displayMissions() {
       ? '<i class="fas fa-check"></i>'
       : '<i class="fas fa-star"></i>';
 
-    newLi.innerHTML = `${iconStatusMain}${element.titulo}`;
+    const mainLinkIcon = `<a class="iconLink" target="_blank" href="${missionsList.principales[index].url}"><i class="fas fa-link"></i></a>`
+
+    newLi.innerHTML = `${iconStatusMain}${element.titulo}  ${mainLinkIcon}`;
   });
 
   //create elements to secondary missions
@@ -85,6 +87,8 @@ function displayMissions() {
 
     const missions = element.misiones;
 
+    
+
     missions.forEach((element, index) => {
       const newLi = document.createElement("li");
       newLi.classList.toggle("mission");
@@ -101,8 +105,14 @@ function displayMissions() {
       const iconStatusSecondary = element.status
         ? '<i class="fas fa-check"></i>'
         : '<i class="fas fa-circle"></i>';
+      
+      const secondaryDescription = element.description
+        ? `(${element.description})`
+        : ''
 
-      newLi.innerHTML = `${iconStatusSecondary}${element.titulo}`;
+      const mainLinkIcon = `<a class="iconLink" target="_blank" href="${element.url}"><i class="fas fa-link"></i></a>`
+
+      newLi.innerHTML = `${iconStatusSecondary}${element.titulo} ${secondaryDescription}  ${mainLinkIcon}`;
     });
   });
 

@@ -3,42 +3,50 @@
         {
             "titulo": "Prólogo",
             "status": false,
-            "description": ""
+            "description": "",
+            "url":"https://www.eliteguias.com/guias/m/me/mass-effect-p1.php"
         },
         {
             "titulo": "La Ciudadela",
             "status": false,
-            "description": ""
+            "description": "",
+            "url":"https://www.eliteguias.com/guias/m/me/mass-effect-p2.php"
         },
         {
             "titulo": "Buscar a Liara T'Soni",
             "status": false,
-            "description": ""
+            "description": "",
+            "url":"https://www.eliteguias.com/guias/m/me/mass-effect-p3.php"
         },
         {
             "titulo": "Feros",
             "status": false,
-            "description": ""
+            "description": "",
+            "url":"https://www.eliteguias.com/guias/m/me/mass-effect-p4.php"
         },
         {
             "titulo": "Noveria",
             "status": false,
-            "description": ""
+            "description": "",
+            "url":"https://www.eliteguias.com/guias/m/me/mass-effect-p5.php"
         },
         {
             "titulo": "Virmire",
             "status": false,
-            "description": ""
+            "description": "",
+            "url":"https://www.eliteguias.com/guias/m/me/mass-effect-p7.php"
         },
         {
             "titulo": "Ilos",
             "status": false,
-            "description": ""
+            "description": "",
+            "url":"https://www.eliteguias.com/guias/m/me/mass-effect-p8.php"
         },
         {
             "titulo": "La Batalla Final",
             "status": false,
-            "description": ""
+            "description": "",
+            "url":""
         }
     ],
     "secundarias": [
@@ -48,172 +56,211 @@
                 {
                     "titulo": "Carne de varren",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p1.php"
                 },
                 {
                     "titulo": "El suministro de agua",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p2.php"
                 },
                 {
                     "titulo": "Geth en los túneles",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p3.php"
                 },
                 {
                     "titulo": "Las baterías",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p4.php"
+                },
+                {
+                    "titulo": "Recuperacion de datos",
+                    "status": false,
+                    "description": "",
+                    "url":"https://masseffect.fandom.com/wiki/Feros:_Data_Recovery"
                 }
             ]
         },
         {
-            "titulo": "Index",
+            "titulo": "Inex",
             "misiones": [
                 {
                     "titulo": "IV renegada",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p6.php"
                 },
                 {
                     "titulo": "Base asediada",
                     "status": false,
-                    "description": ""
+                    "description": "Virtud >80%",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p7.php"
                 },
                 {
                     "titulo": "Carguero a la deriva",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p8.php"
                 },
                 {
                     "titulo": "Carguero desaparecido",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p9.php"
                 },
                 {
                     "titulo": "Cerberus",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p10.php"
                 },
                 {
                     "titulo": "Científicos muertos",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p11.php"
                 },
                 {
                     "titulo": "Colonia de los muertos",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p12.php"
                 },
                 {
                     "titulo": "Corsarios",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p13.php"
                 },
                 {
-                    "titulo": "Depósito Sigm",
+                    "titulo": "Depósito Sigm-23",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p14.php"
                 },
                 {
                     "titulo": "Diplomacia asari",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p15.php"
                 },
                 {
                     "titulo": "Discos de datos proteanos",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p16.php"
                 },
                 {
                     "titulo": "El mayor Kyle",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p17.php"
                 },
                 {
                     "titulo": "Escritos Asari",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p18.php"
                 },
                 {
                     "titulo": "Incursiones geth",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p19.php"
                 },
                 {
                     "titulo": "Insignias Turianas",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p20.php"
                 },
                 {
                     "titulo": "Instalación de ExoGeni",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p21.php"
                 },
                 {
                     "titulo": "Investigadores desaparecidos",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p22.php"
                 },
                 {
                     "titulo": "La negociación",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p23.php"
                 },
                 {
                     "titulo": "Localizar las señales de batalla",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p24.php"
                 },
                 {
                     "titulo": "Los perros del Hades",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p25.php"
                 },
                 {
                     "titulo": "Marines desaparecidos",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p26.php"
                 },
                 {
                     "titulo": "Minerales valiosos",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p27.php"
                 },
                 {
                     "titulo": "Módulo perdido",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p28.php"
                 },
                 {
                     "titulo": "Opa hostil",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p29.php"
                 },
                 {
                     "titulo": "Puesto de escucha Alpha",
                     "status": false,
-                    "description": ""
+                    "description": "Despues de Noveria",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p30.php"
                 },
                 {
                     "titulo": "Puesto de escucha Theta",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p31.php"
                 },
                 {
                     "titulo": "Rehenes",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p32.php"
                 },
                 {
                     "titulo": "Señal de emergencia",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p33.php"
                 },
                 {
                     "titulo": "Sonda de espionaje",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p34.php"
                 }
             ]
         },
@@ -223,97 +270,116 @@
                 {
                     "titulo": "Asuntos familiares",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p35.php"
                 },
                 {
                     "titulo": "Asuntos viejos, infelices y lejanos",
                     "status": false,
-                    "description": ""
+                    "description": "Perfil: Del Espacio",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p36.php"
                 },
                 {
                     "titulo": "Dispositivo de espionaje",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p37.php"
                 },
                 {
                     "titulo": "El Cuarto Poder",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p38.php"
                 },
                 {
                     "titulo": "El Fan",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p39.php"
                 },
                 {
                     "titulo": "El profeta del Presidium",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p40.php"
                 },
                 {
                     "titulo": "Examinar a los cuidadores",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p41.php"
                 },
                 {
                     "titulo": "La consorte asari",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p42.php"
                 },
                 {
                     "titulo": "La doctora Michel",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p43.php"
                 },
                 {
                     "titulo": "La hermana de Rita",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p44.php"
                 },
                 {
                     "titulo": "La petición de la reportera",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p45.php"
                 },
                 {
                     "titulo": "La petición del negociador",
                     "status": false,
-                    "description": ""
+                    "description": "Despues de Virmire",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p46.php"
                 },
                 {
                     "titulo": "La reclamación de Xeltan",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p47.php"
                 },
                 {
                     "titulo": "Los temores de Jahleed",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p48.php"
                 },
                 {
                     "titulo": "Nuestro peor enemigo",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p49.php"
                 },
                 {
                     "titulo": "Recuerdo quién soy",
                     "status": false,
-                    "description": ""
+                    "description": "Perfil: De las Colonias",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p50.php"
                 },
                 {
                     "titulo": "Schells el Jugador",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p51.php"
                 },
                 {
                     "titulo": "Seguir la señal",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p52.php"
                 },
                 {
                     "titulo": "Vuelta a casa",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p53.php"
                 }
             ]
         },
@@ -323,12 +389,14 @@
                 {
                     "titulo": "Contrabando",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p54.php"
                 },
                 {
                     "titulo": "Espionaje",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p55.php"
                 }
             ]
         },
@@ -338,12 +406,14 @@
                 {
                     "titulo": "Ayudar al equipo de Kirrahe",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p57.php"
                 },
                 {
                     "titulo": "Wrex y la genofagia",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p58.php"
                 }
             ]
         },
@@ -353,17 +423,20 @@
                 {
                     "titulo": "Encuentra al doctor Saleon - [Garrus]",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p5.php"
                 },
                 {
                     "titulo": "Tali y los geth - [Tali]",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p56.php"
                 },
                 {
                     "titulo": "La Armadura de la Familia - [Wrex]",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_misiones-secundarias-p59.php"
                 }
             ]
         },
@@ -373,12 +446,14 @@
                 {
                     "titulo": "El cielo se está cayendo",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_el-cielo-se-esta-cayendo.php"
                 },
                 {
                     "titulo": "Estación pináculo",
                     "status": false,
-                    "description": ""
+                    "description": "",
+                    "url":"https://www.eliteguias.com/guias/m/me/mass-effect_estacion-pinaculo.php"
                 }
             ]
         }
